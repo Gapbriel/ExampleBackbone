@@ -1,0 +1,140 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+#header {
+    padding-top: 5px;
+    background-color: #3399CC;
+}
+
+#sidebar {
+    position: absolute;
+    left: 10px;
+    top:81px;
+    bottom: 20px;
+    width: 808px;
+    /*border: solid 1px #CCCCCC;
+    overflow-y: scroll;*/
+}
+
+#content {
+    position: absolute;
+    top: 70px;
+    bottom: 20px;
+    left: 870px;
+    right: 20px;
+}
+
+.form-left-col {
+    width: 310px;
+    float: left;
+}
+
+.form-right-col {
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+	margin-left: 36px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: #006699;
+        background-color: #EEEEEE;
+    border-bottom: 1px solid #3399CC;
+    padding: 8px;
+}
+
+li a:hover {
+    background-color: #3399CC;
+    color: #CCC;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    min-height: 30px;
+    outline: none;
+}
+
+.form-left-col input {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 280px;
+}
+
+textarea {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    height: 200px;
+    width: 250px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    padding: 6px;
+}
+
+.new{
+   margin-left: 268px;
+   background-color: #006DCC;
+   background-image: -moz-linear-gradient(center top , #0088CC, #0044CC);
+   background-repeat: repeat-x;
+   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+   color: #FFFFFF;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+   width: 104px;
+}
+
+#sidebar span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label{
+  font-weight: bolder !important;
+}
+
+#header div{
+   height: 41px;
+}
+
+.save{
+   background-color: #006DCC;
+   background-image: -moz-linear-gradient(center top , #0088CC, #0044CC);
+   background-repeat: repeat-x;
+   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+   color: #FFFFFF;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+   width:80px;
+   margin-bottom: 35px;
+}
+
+.delete{
+   background-color: #006DCC;
+   background-image: -moz-linear-gradient(center top , #0088CC, #0044CC);
+   background-repeat: repeat-x;
+   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+   color: #FFFFFF;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+   width:80px;
+   margin-bottom: 35px;
+}
+
+#total{
+	margin-left: 36px;
+    margin-top: 6px;
+	color: #006699;
+}

@@ -1,0 +1,74 @@
+    <div class="alert alert-error" style="display:none">
+            <strong>Ooops!</strong> You did not pass the validation.
+          </div>
+          <div class="alert alert-success" style="display:none">
+            <strong>Success!</strong> You passed the validation.
+    </div>
+	<div class="form-left-col">
+        
+		<div class="control-group">
+			<label>Id:</label>
+			<div class="controls">
+				<input type="text" id="productId" name="id" value="<%= id %>" disabled />
+            </div>	
+		</div>
+		
+		<div class="control-group">
+			<label class="control-label" for="name">Name:</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge" id="name" name="name" value="<%= name %>" required data-error-style="inline"/>
+			</div>	
+		</div>
+
+		<div class="control-group">
+			<label class="control-label" for="category">Category:</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge" id="category" name="category" value="<%= category %>"  data-error-style="inline"/>
+		    </div>	
+		</div>
+		
+		<div class="control-group">
+			<label class="control-label" for="client">Supplier:</label>
+			<div class="controls">
+				<input type="text" class="input-xlarge" id="client" name="client" value="<%= client %>" required data-error-style="inline"/>
+		    </div>	
+		</div>
+		
+				
+		<div class="control-group">	
+		    <label class="control-label" for="amount">Amount:</label>
+			<div class="controls">
+				<input type="text"  class="input-xlarge" id="amount" name="amount" value="<%= amount %>" required data-error-style="inline"/>
+		      </div>	
+		</div>
+
+		<!-- <div class="control-group">	
+		    <label class="control-label" for="date">Date:</label>
+			<div class="controls">
+				<input type="text"  class="input-xlarge" id="date" name="date" value="<%= date %>" required data-error-style="inline"/>
+		      </div>	
+		</div> -->
+		
+
+		<div class="control-group">	
+		    <label class="control-label" for="date">Date:</label>
+			<div class="controls">
+				<div id="datetimepicker1" class="input-append date">
+					<input type="text" data-format="dd/MM/yyyy" class="datepicker" id="date" name="date"  required/>
+					<span class="add-on">
+					<i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+					</span>
+				</div>	
+		    </div>	
+		</div>
+
+		<div class="control-group">
+			<label class="control-label" for="price">Unit Price:</label>
+			<div class="controls">
+			     $<input type="text" class="input-xlarge" id="price" name="price" value="<%= price %>" required data-error-style="inline"/>
+			  </div>	
+		</div>
+		
+        <button class="save">Save</button>
+        <button class="delete">Delete</button>
+    </div>
